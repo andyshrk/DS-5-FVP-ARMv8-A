@@ -1,0 +1,41 @@
+ARM Platforms Release build
+Job name:     armlt-platforms-release
+Build number: 57
+Job type:     release
+Branch:       17.10
+Using the pinned manifest.
+
+md5sum                            file
+--------------------------------  -----------------------------------
+9e25173c20b27df30272740ed5a59e7b  ./Image
+b94b7d7bdabf77dc54b8dddec40f9025  ./bl1.bin
+b47a9f82c1406ad6c5e3796dca732e5c  ./bl33-uboot.bin
+56748bb379c0bd61df6b52fd7638f73d  ./fip.bin
+11d0def441263041b7a449d827c5a156  ./foundation-v8-gicv3.dtb
+038fa50d9fbcee4e9b4843bb9216304e  ./fvp-base-aemv8a-aemv8a-t1.dtb
+9b7a45fb42bcd6f834f231271eff04bb  ./fvp-base-aemv8a-aemv8a.dtb
+a3f3d3dbbbd4da6daf2be63c9e6e5b5c  ./fvp-latest-oe-uboot-17.10.txt
+b50962d0768206277a0b03bbf269a07d  ./ramdisk.img
+8cd91de91e5cdff63332ffa839487be9  ./run_model.sh
+
+commit  repo
+------- --------------------- 
+111cdcf29 busybox
+1df4046 optee/optee_client
+3a43adc optee/optee_linuxdriver
+3b39efa4 arm-tf
+401d1343cb uefi/edk2
+467fcd1 .repo/manifests
+470ab22 uefi/edk2/OpenPlatformPkg
+5ad54b6 model-scripts
+702609a7 optee/optee_os
+80ce298 build-scripts
+a624e22f08 u-boot
+b57c098 ramdisk
+bb3cae0 tools/uefi-tools
+bc9dfc35c455 linux
+bfafadb4 mbedtls
+cd9683b recovery
+d0126a368 tools/acpica
+d9e8f81 vexpress-firmware
+eceeb1b .repo/repo
